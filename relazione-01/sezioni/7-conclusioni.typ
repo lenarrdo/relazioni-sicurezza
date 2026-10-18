@@ -1,0 +1,3 @@
+= Conclusioni e Discussione
+
+Il caso Shai-Hulud dimostra che nella supply chain del software la fiducia è un punto critico: bastano le credenziali di pochi sviluppatori, tramite phishing, per infettare milioni di sistemi. L’esecuzione automatica del codice all’installazione senza lettura ne conferma è una falla nel design di npm gravissima, esposta solo da attacchi di queste dimensioni. Il contenimento è stato possibile grazie alla reazione rapida di npm, dei ricercatori e delle aziende coinvolte, ma, come testimoniano i successivi attacchi lanciati verso npm, la piattaforma continua a rimanere fragile e un ottimo mezzo di propagazione.
