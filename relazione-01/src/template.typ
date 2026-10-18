@@ -54,6 +54,9 @@
     ],
   )
 
+  outline(indent: auto)
+  pagebreak()
+
   set par(justify: true)
   set heading(numbering: "1.a")
   show figure: align.with(center)
