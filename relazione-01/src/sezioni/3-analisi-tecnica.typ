@@ -8,20 +8,38 @@ Il worm funziona in modo analogo a un virus e ogni vittima diventa a sua volta u
   {
     let step(t) = box(width: 100%, inset: 6pt, radius: 3pt, stroke: 0.6pt + luma(90), fill: luma(245), align(center, text(size: 9.5pt, t)))
     let arrow = align(center, text(size: 11pt)[↓])
-    stack(
-      spacing: 3pt,
-      step[*1.* Lo sviluppatore (o il server CI) esegue `npm install` di un pacchetto infetto],
-      arrow,
-      step[*2.* Lo script `postinstall`, aggiunto dall'attaccante, avvia il payload malevolo (`bundle.js`)],
-      arrow,
-      step[*3.* Raccolta segreti: variabili d'ambiente, file di configurazione (es. `.npmrc`), TruffleHog, secret manager cloud],
-      arrow,
-      step[*4.* Esfiltrazione: repository pubblico "Shai-Hulud" e workflow GitHub Actions verso un endpoint dell'attaccante],
-      arrow,
-      step[*5.* Propagazione: con il token npm rubato si infettano altri pacchetti del manutentore e si pubblicano nuove versioni],
-      arrow,
-      step[*6.* Nuove vittime installano le versioni infette → si riparte dal punto 1],
-    )
+    layout(size => {
+      let w = size.width - 22pt
+      let body = box(width: w, stack(
+        spacing: 3pt,
+        step[*1.* Lo sviluppatore (o la pratica CI) esegue `npm install` di un pacchetto infetto],
+        arrow,
+        step[*2.* Lo script `postinstall`, aggiunto dall'attaccante, avvia il payload malevolo],
+        arrow,
+        step[*3.* Raccolta segreti: file di configurazione, variabili d'ambiente, TruffleHog],
+        arrow,
+        step[*4.* Esfiltrazione: repository pubblico "Shai-Hulud" e workflow GitHub Actions verso un endpoint dell'attaccante],
+        arrow,
+        step[*5.* Propagazione: con il token npm rubato si infettano altri pacchetti del manutentore e si pubblicano nuove versioni],
+        arrow,
+        step[*6.* Nuove vittime installano le versioni infette → si riparte dal punto 1],
+      ))
+      let h = measure(body).height
+      // y del centro del primo e dell'ultimo blocco (blocchi su una riga)
+      let y1 = 12pt
+      let y2 = h - 12pt
+      let s = 0.8pt + luma(90)
+      // il corpo è centrato nel box: x0 è il bordo destro dei blocchi
+      let x0 = (size.width - w) / 2 + w
+      let x1 = x0 + 9pt
+      box(width: size.width, height: h, {
+        body
+        place(top + left, dx: x0, dy: y2, line(length: 9pt, stroke: s))
+        place(top + left, dx: x1, dy: y1, line(angle: 90deg, length: y2 - y1, stroke: s))
+        place(top + left, dx: x0 + 5pt, dy: y1, line(length: 4pt, stroke: s))
+        place(top + left, dx: x0, dy: y1 - 3pt, polygon(fill: luma(90), stroke: none, (0pt, 3pt), (5pt, 0pt), (5pt, 6pt)))
+      })
+    })
   },
   caption: [Ciclo di infezione e propagazione di Shai-Hulud],
 ) <fig:propagazione-shai-hulud>
