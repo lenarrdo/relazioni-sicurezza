@@ -37,5 +37,8 @@
 #include "sezioni/6-mitigazioni-comportamenti.typ"
 #include "sezioni/7-conclusioni.typ"
 
-#include "utilizzo_llm.typ"
+#pagebreak()
+#bibliography("refs.bib")
 
+#pagebreak()
+#include "utilizzo_llm.typ"

@@ -62,7 +62,4 @@
   show figure: align.with(center)
 
   body
-
-  pagebreak()
-  bibliography("refs.bib")
 }
