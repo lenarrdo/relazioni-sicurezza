@@ -1,4 +1,4 @@
-= Amedeo Marino S358012
+== Amedeo Marino S358012
 
 Autore delle sezioni:
 

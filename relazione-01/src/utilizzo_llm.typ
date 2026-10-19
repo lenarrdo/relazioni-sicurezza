@@ -11,13 +11,11 @@
 #set par(justify: true)
 #set heading(numbering: "1.a")
 
-#align(center)[
-  #text(2em, weight: "bold")[Dichiarazione sull'utilizzo di LLM]
-  #v(0.5em)
-  #text(fill: gray)[Relazione su Shai-Hulud]
-]
 
 #v(1.5em)
+
+
+= Allegato Utilizzo LLM
 
 #include "autori/amedeo-marino.typ"
 #include "autori/andrei.typ"

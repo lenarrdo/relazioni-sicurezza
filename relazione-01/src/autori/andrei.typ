@@ -1,4 +1,4 @@
-= Andrei Daniel Stefan (S356980)
+== Andrei Daniel Stefan (S356980)
 
 Autore delle sezioni:
 - casi reali
