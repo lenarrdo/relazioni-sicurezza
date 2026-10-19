@@ -26,7 +26,7 @@
     },
   )
   set text(font: "Fira Sans", lang: "it")
-  show raw: set text(font: "Fira Mono")
+  show raw: set text(font: "Fira Mono", size: 10pt)
 
   grid(
     columns: (75%, auto),
@@ -63,5 +63,6 @@
 
   body
 
+  pagebreak()
   bibliography("refs.bib")
 }
