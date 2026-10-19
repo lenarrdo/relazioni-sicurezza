@@ -6,11 +6,11 @@ Autore delle sezioni:
 - descrizione;
 - conclusione.
 
-== Modello utilizzato
+=== Modello utilizzato
 
 Claude Sonnet 5.5 High
 
-== Modalità di utilizzo
+=== Modalità di utilizzo
 
 I paragrafi in questione sono stati innanzitutto scritti senza aiuti esterni, eccetto l'utilizzo delle fonti dichiarate in bibliografia. Il modello LLM è stato utilizzato per verificare l'aderenza a tutti i requisiti stabiliti nelle istruzioni.
 

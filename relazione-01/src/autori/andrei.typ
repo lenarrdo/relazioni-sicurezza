@@ -3,11 +3,11 @@
 Autore delle sezioni:
 - casi reali
 
-== Modello utilizzato
+=== Modello utilizzato
 
 Claude Sonnet 5.5 Medium
 
-== Modalità di utilizzo
+=== Modalità di utilizzo
 
 Il primo prompt è stato il seguente: 
 
