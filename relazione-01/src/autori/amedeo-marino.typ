@@ -46,3 +46,19 @@ https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-pack
 Il modello ha fatto notare come il testo fosse poco adatto a un lettore non tecnico. Inoltre, c'erano alcune discrepanze tra le dichiarazioni fatte dall'autore e quelle delle fonti effettive, e l'aderenza non era completa al modello del Cyber Risk Management.
 
 Le modifiche risultanti hanno portato a una pesante riscrittura dell'insieme, aggiungendo definizioni e precisazioni per un pubblico non tecnico. Anche il discorso è stato rimodellato, portando più informazioni dall'introduzione alla descrizione e descrivendo gli avvenimenti in un ordine meno confusionario.
+
+Questa porzione di relazione è stata terminata tramite un secondo prompt, per la verifica di errori grammaticali, logici, chiarezza dell'esposizione e altri difetti come la presenza di doppi spazi:
+
+#block(
+  width: 100%,
+  inset: 1em,
+  fill: luma(245),
+  radius: 4pt,
+)[
+```text
+[ testo paragrafi ]
+
+Puoi controllare queste parti della relazione? Verifica il testo sia chiaro da leggere, non ci siano frasi troppo lunghe, o errori grammaticali/sintattici/logici
+```]
+
+La risposta è stata usata per correggere tutti gli errori grammaticali e la riformulazione di alcune frasi. Il contenuto è rimasto invariato.
