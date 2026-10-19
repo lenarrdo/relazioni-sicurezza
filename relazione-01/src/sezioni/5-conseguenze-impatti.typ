@@ -18,4 +18,3 @@ servito un lavoro enorme per revocare e ruotare centinaia di token, bonificare l
 fondo il codice alla ricerca di residui del payload. A questo si aggiunge un impatto reputazionale difficile da quantificare.
 La compromissione di librerie popolarissime come ctrl/tinycolor o di pacchetti legati a nomi della cybersecurity come CrowdStrike
 ha incrinato la fiducia nell'ecosistema npm, dimostrando quanto sia sottile il confine tra un componente sicuro e una porta d'ingresso per i malware.
-
