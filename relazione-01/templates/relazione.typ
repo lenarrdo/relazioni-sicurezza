@@ -1,10 +1,35 @@
-#let template(
+#let authors = (
+  (
+    name: "Amedeo Marino",
+    matricola: "s358012",
+  ),
+  (
+    name: "Andrea Zanzarella",
+    matricola: "s361615",
+  ),
+  (
+    name: "Andrei Daniel Stefan",
+    matricola: "s356980",
+  ),
+  (
+    name: "Davide Giordano",
+    matricola: "s361797",
+  ),
+  (
+    name: "Leonardo Miani",
+    matricola: "s361817",
+  ),
+);
+
+#let relazione(
   title: none,
   subtitle: none,
-  authors: (),
-  university-logo: none,
-  course: none,
-  team-name: none,
+  authors: authors,
+  university-logo: "polito-logo.svg",
+  course: "Sicurezza dei Sistemi Informativi",
+  team-name: "WannaCry",
+  llm-usage: "/utilizzo-llm/utilizzo-llm.typ",
+  bib-file: "/refs.yaml",
   body,
 ) = {
   set page(
@@ -58,8 +83,16 @@
   pagebreak()
 
   set par(justify: true)
-  set heading(numbering: "1.a")
+  set heading(numbering: "1.")
   show figure: align.with(center)
 
   body
+
+  pagebreak()
+  bibliography(bib-file)
+
+  if llm-usage != none {
+    pagebreak()
+    include llm-usage
+  }
 }
