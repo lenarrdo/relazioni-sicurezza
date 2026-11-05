@@ -1,4 +1,4 @@
-#import "/templates/relazione.typ": *
+#import "templates/relazione.typ": *
 
 #show: relazione.with(
   title: "Face ID e autenticazione biometrica: sicurezza, spoofing e privacy",

@@ -1,6 +1,7 @@
 # Bibliografia del secondo elaborato. Fonti verificate il 2026-11-04.
 # Usare @chiave direttamente nei file .typ, ad esempio @apple-faceid-2024.
 
+# andrei refs --------------------------------------------------- andrei refs
 apple-faceid-2024:
   type: web
   title: "Informazioni sulla tecnologia avanzata del Face ID"
@@ -9,6 +10,44 @@ apple-faceid-2024:
   date: 2024-12-17
   url: "https://support.apple.com/it-it/102381"
   urldate: 2026-11-04
+
+bkav-2017:
+  type: web
+  title: "Bkav's new mask beats Face ID in 'twin way'"
+  author: Bkav
+  organization: "Bkav Corporation"
+  date: 2017-11-27
+  url: "https://www.bkav.com/top-new/-/view-content/65202/bkavs-new-mask-beats-face-id-in-twin-way-severity-level-raised-do-not-use-face-id-in-business-transactions"
+  urldate: 2026-11-05
+
+wired-2017:
+  type: article
+  title: "Hackers Claim to Break Face ID a Week After iPhone X Release"
+  author: "Andy Greenberg"
+  container-title: WIRED
+  date: 2017-11-13
+  url: "https://www.wired.com/story/hackers-say-broke-face-id-security/"
+  urldate: 2026-11-05
+
+ars-2017:
+  type: article
+  title: "Hackers say they broke Apple's Face ID. Here's why we're not convinced"
+  author: "Dan Goodin"
+  container-title: Ars Technica
+  date: 2017-11
+  url: "https://arstechnica.com/information-technology/2017/11/hackers-say-they-broke-apples-face-id-heres-why-were-not-convinced/"
+  urldate: 2026-11-05
+
+enisa-2022:
+  type: report
+  title: "Remote Identity Proofing: Attacks and Countermeasures"
+  author: "European Union Agency for Cybersecurity"
+  organization: ENISA
+  date: 2022-01-20
+  url: "https://www.enisa.europa.eu/publications/remote-identity-proofing-attacks-countermeasures"
+  urldate: 2026-11-05
+
+# andrei refs --------------------------------------------------- andrei refs
 
 apple-platform-security:
   type: web
@@ -43,41 +82,9 @@ iso-30107-3-2023:
   url: "https://www.iso.org/standard/79520.html"
   urldate: 2026-11-04
 
-enisa-2022:
-  type: report
-  title: "Remote Identity Proofing: Attacks and Countermeasures"
-  author: "European Union Agency for Cybersecurity"
-  organization: ENISA
-  date: 2022-01-20
-  url: "https://www.enisa.europa.eu/publications/remote-identity-proofing-attacks-countermeasures"
-  urldate: 2026-11-04
 
-bkav-2017:
-  type: web
-  title: "Bkav's new mask beats Face ID in 'twin way'"
-  author: Bkav
-  organization: "Bkav Corporation"
-  date: 2017-11-27
-  url: "https://www.bkav.com/top-new/-/view-content/65202/bkavs-new-mask-beats-face-id-in-twin-way-severity-level-raised-do-not-use-face-id-in-business-transactions"
-  urldate: 2026-11-04
 
-wired-2017:
-  type: article
-  title: "Hackers Claim to Break Face ID a Week After iPhone X Release"
-  author: "Andy Greenberg"
-  container-title: WIRED
-  date: 2017-11-13
-  url: "https://www.wired.com/story/hackers-say-broke-face-id-security/"
-  urldate: 2026-11-04
 
-ars-2017:
-  type: article
-  title: "Hackers say they broke Apple's Face ID. Here's why we're not convinced"
-  author: "Dan Goodin"
-  container-title: Ars Technica
-  date: 2017-11
-  url: "https://arstechnica.com/information-technology/2017/11/hackers-say-they-broke-apples-face-id-heres-why-were-not-convinced/"
-  urldate: 2026-11-04
 
 edpb-2024:
   type: report
@@ -95,3 +102,4 @@ fido-passkeys:
   organization: "FIDO Alliance"
   url: "https://fidoalliance.org/passkeys/"
   urldate: 2026-11-04
+
