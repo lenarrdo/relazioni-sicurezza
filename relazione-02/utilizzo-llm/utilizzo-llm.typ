@@ -4,3 +4,5 @@
 // Per ogni autore indicare: modello, compito, prompt significativi, verifiche sulle fonti
 // ed eventuali modifiche introdotte a seguito dell’output.
 // Non inventare l'uso del modello per autori che non l'hanno utilizzato.
+
+#include "autori/amedeo-marino.typ"

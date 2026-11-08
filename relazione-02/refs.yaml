@@ -82,10 +82,6 @@ iso-30107-3-2023:
   url: "https://www.iso.org/standard/79520.html"
   urldate: 2026-11-04
 
-
-
-
-
 edpb-2024:
   type: report
   title: "Opinion 11/2024 on the use of facial recognition to streamline airport passengers' flow"
@@ -103,3 +99,26 @@ fido-passkeys:
   url: "https://fidoalliance.org/passkeys/"
   urldate: 2026-11-04
 
+wikipedia-faceid:
+  type: web 
+  title: "Face ID"
+  author: Wikipedia
+  organization: "Wikipedia"
+  url: "https://en.wikipedia.org/wiki/Face_ID"
+  urldate: 2026-11-08
+
+businessinsider-faceid-twins:
+  type: web 
+  title: "Can the iPhone X tell the difference between twins?"
+  author: Emmanuel Ocbazghi
+  organization: "Business Insiders"
+  url: "https://www.businessinsider.com/can-iphone-x-tell-difference-between-twins-face-id-recognition-apple-2017-10"
+  urldate: 2026-11-08
+
+mashable-faceid-twins:
+  type: web 
+  title: "The iPhone X can't tell the difference between identical twins"
+  author: Lance Ulanoff
+  organization: "Mashable"
+  url: "https://mashable.com/article/putting-iphone-x-face-id-to-twin-test"
+  urldate: 2026-11-08
