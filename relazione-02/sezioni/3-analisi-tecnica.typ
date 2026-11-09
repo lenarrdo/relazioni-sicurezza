@@ -1,4 +1,4 @@
-= Analisi tecnica e superfici di attacco
+= Analisi tecnica e superfici di attacco <sec:superfici-attacco>
 
 // Autore assegnato: Andrea Zanzarella
 // TODO: TrueDepth: profondità/IR, modello matematico; Secure Enclave e confine hardware-software.
@@ -16,11 +16,7 @@ La fotocamera #emph[TrueDepth] proietta e analizza migliaia di punti infrarossi 
 
 Face ID esegue una verifica 1:1: confronta il volto presentato con il template del proprietario, senza cercarlo in un archivio (identificazione 1:N). L'esito dipende da una soglia che regola un compromesso: renderla più severa riduce il *FMR* (False Match Rate, impostori accettati) ma aumenta il *FNMR* (False Non-Match Rate, utenti legittimi rifiutati). Per la biometria, nei suoi requisiti per i sistemi di identità digitale (non una certificazione di Face ID), NIST richiede un FMR di uno su 10.000 o migliore, mantenuto anche sotto attacco conforme, con soglia fissa e un FNMR inferiore al 5% come valore raccomandato @nist-sp800-63b-2025. Apple dichiara una probabilità di falso match inferiore a uno su 1.000.000 per una persona a caso con una sola configurazione del volto registrata, più alta per gemelli, fratelli somiglianti e minori di 13 anni, e richiede il passcode dopo cinque tentativi falliti @apple-faceid-2024. Sono però valori dichiarati dal produttore: non risultano test indipendenti né un FNMR pubblicato, e il valore descrive un impostore casuale, non uno somigliante.
 
-== Liveness e Presentation Attack Detection (PAD)
-
-Il solo matching non distingue un volto vivo da una sua riproduzione: serve il *PAD*. ISO/IEC 30107-3 ne definisce metodi di test e di reporting, con metriche come APCER (attacchi classificati come legittimi) e BPCER (presentazioni legittime classificate come attacchi) @iso-30107-3-2023; NIST richiede il PAD per il riconoscimento facciale @nist-sp800-63b-2025. Face ID combina tre elementi: la profondità, assente in stampe e foto 2D; reti neurali anti-spoofing contro le maschere; e il controllo dell'attenzione, che verifica occhi aperti e sguardo rivolto al dispositivo @apple-faceid-2024 @apple-platform-security. Il controllo è disattivabile per accessibilità: un compromesso tra usabilità e sicurezza.
-
-== Attacchi di presentazione
+== Attacchi di presentazione <sec:attacchi-presentazione>
 
 ENISA distingue gli strumenti di attacco in digitali (schermi che riproducono contenuti) e fisici (ad esempio maschere in silicone o stampate) @enisa-2022. Gli esempi riguardano però il riconoscimento remoto e non si trasferiscono automaticamente a Face ID, che usa profondità e infrarossi (nostra lettura).
 
@@ -29,9 +25,17 @@ ENISA distingue gli strumenti di attacco in digitali (schermi che riproducono co
     columns: (auto, auto, 1fr),
     align: left,
     table.header[*Attacco*][*Tipo*][*Contromisura o limite in Face ID*],
-    [Foto o stampa], [Fisico, 2D], [Manca l'informazione di profondità richiesta @apple-faceid-2024],
-    [Video su schermo], [Digitale], [Superficie piatta: stesso principio (inferenza nostra)],
-    [Maschera 3D], [Fisico], [Contrastata da reti anti-spoofing @apple-faceid-2024; il caso più documentato nelle nostre fonti è Bkav (sezione 4) @bkav-2017],
+    [Foto o stampa],
+    [Fisico, 2D],
+    [Manca l'informazione di profondità richiesta @apple-faceid-2024],
+
+    [Video su schermo],
+    [Digitale],
+    [Superficie piatta: stesso principio (inferenza nostra)],
+
+    [Maschera 3D],
+    [Fisico],
+    [Contrastata da reti anti-spoofing @apple-faceid-2024; il caso più documentato nelle nostre fonti è Bkav (sezione 4) @bkav-2017],
   ),
   caption: [Attacchi di presentazione e loro rilevanza per Face ID],
 )
@@ -47,8 +51,19 @@ L'enrollment cattura il volto in più pose e il template si aggiorna con l'uso, 
     let gap = 4pt
     let aw = 14pt
     let cw = (size.width - 2 * aw - 4 * gap) / 3
-    let b(t, fill: luma(245)) = block(width: 100%, inset: 6pt, radius: 3pt, stroke: 0.6pt + luma(90), fill: fill, text(size: 9pt, t))
-    let n(t) = block(width: 100%, inset: (x: 2pt, y: 3pt), text(size: 8.5pt, fill: luma(60), t))
+    let b(t, fill: luma(245)) = block(
+      width: 100%,
+      inset: 6pt,
+      radius: 3pt,
+      stroke: 0.6pt + luma(90),
+      fill: fill,
+      text(size: 9pt, t),
+    )
+    let n(t) = block(width: 100%, inset: (x: 2pt, y: 3pt), text(
+      size: 8.5pt,
+      fill: luma(60),
+      t,
+    ))
     grid(
       columns: (cw, aw, cw, aw, cw),
       column-gutter: gap,
@@ -58,9 +73,17 @@ L'enrollment cattura il volto in più pose e il template si aggiorna con l'uso, 
       [→],
       b[Sensore #emph[TrueDepth]: punti IR e immagine IR],
       [→],
-      b(fill: luma(225))[#emph[Secure Enclave]: confronto con il template, esito],
-      grid.cell(colspan: 2, n[*Presentazione*: foto, video o maschera davanti al sensore]),
-      grid.cell(colspan: 2, n[*Injection*: contenuto inserito nel flusso tra sensore e confronto]),
+      b(
+        fill: luma(225),
+      )[#emph[Secure Enclave]: confronto con il template, esito],
+      grid.cell(
+        colspan: 2,
+        n[*Presentazione*: foto, video o maschera davanti al sensore],
+      ),
+      grid.cell(
+        colspan: 2,
+        n[*Injection*: contenuto inserito nel flusso tra sensore e confronto],
+      ),
       [],
     )
   }),

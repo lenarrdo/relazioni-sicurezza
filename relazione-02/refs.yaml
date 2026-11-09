@@ -1,7 +1,6 @@
 # Bibliografia del secondo elaborato. Fonti verificate il 2026-11-04.
 # Usare @chiave direttamente nei file .typ, ad esempio @apple-faceid-2024.
 
-# andrei refs --------------------------------------------------- andrei refs
 apple-faceid-2024:
   type: web
   title: "Informazioni sulla tecnologia avanzata del Face ID"
@@ -47,8 +46,6 @@ enisa-2022:
   url: "https://www.enisa.europa.eu/publications/remote-identity-proofing-attacks-countermeasures"
   urldate: 2026-11-05
 
-# andrei refs --------------------------------------------------- andrei refs
-
 apple-platform-security:
   type: web
   title: "Sicurezza del riconoscimento facciale"
@@ -82,7 +79,7 @@ iso-30107-3-2023:
   url: "https://www.iso.org/standard/79520.html"
   urldate: 2026-11-04
 
-edpb-2024:
+edpb-2024: # leonardo
   type: report
   title: "Opinion 11/2024 on the use of facial recognition to streamline airport passengers' flow"
   author: "European Data Protection Board"
@@ -100,7 +97,7 @@ fido-passkeys:
   urldate: 2026-11-04
 
 wikipedia-faceid:
-  type: web 
+  type: web
   title: "Face ID"
   author: Wikipedia
   organization: "Wikipedia"
@@ -108,7 +105,7 @@ wikipedia-faceid:
   urldate: 2026-11-08
 
 businessinsider-faceid-twins:
-  type: web 
+  type: web
   title: "Can the iPhone X tell the difference between twins?"
   author: Emmanuel Ocbazghi
   organization: "Business Insiders"
@@ -116,9 +113,16 @@ businessinsider-faceid-twins:
   urldate: 2026-11-08
 
 mashable-faceid-twins:
-  type: web 
+  type: web
   title: "The iPhone X can't tell the difference between identical twins"
   author: Lance Ulanoff
   organization: "Mashable"
   url: "https://mashable.com/article/putting-iphone-x-face-id-to-twin-test"
   urldate: 2026-11-08
+
+arxiv:
+  type: report
+  title: "Introduction to Presentation Attack Detection in Face Biometrics and Recent Advances"
+  author: [ "Javier Hernandez-Ortega", "Julian Fierrez", "Aythami Morales", "Javier Galbally" ]
+  url: "https://arxiv.org/pdf/2111.11794"
+  urldate: 2026-11-09

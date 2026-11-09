@@ -63,7 +63,11 @@
 
         #for author in (
           authors
-        ) [ #text(font: "Fira Mono", size: 10.5pt, author.matricola) - #author.name \ ]
+        ) [ #text(
+          font: "Fira Mono",
+          size: 10.5pt,
+          [#author.matricola - #author.name ],
+        )\ ]
         #if authors != () {
           v(0.5em)
         }
