@@ -10,7 +10,7 @@
 
 = Rischi derivanti dalla compromissione dell'autenticazione biometrica
 
-La compromissione di un sistema di autenticazione biometrica può produrre conseguenze significative, poiché consente a un *soggetto non autorizzato* di impersonare l'utente legittimo. Nel caso di Face ID, un eventuale aggiramento del riconoscimento facciale potrebbe permettere l'accesso al dispositivo e, di conseguenza, alle informazioni e ai servizi protetti attraverso di esso.
+La compromissione di un sistema di autenticazione biometrica può produrre conseguenze significative, poiché consente a un *soggetto non autorizzato* di impersonificare l'utente legittimo. Nel caso di Face ID, un eventuale aggiramento del riconoscimento facciale potrebbe permettere l'accesso al dispositivo e, di conseguenza, alle informazioni e ai servizi protetti attraverso di esso.
 
 Dal punto di vista del Cyber Risk Management, gli asset potenzialmente esposti comprendono i dati personali conservati sul dispositivo, le comunicazioni, le credenziali di accesso ai servizi e le applicazioni che utilizzano Face ID per autorizzare operazioni. La compromissione dell'autenticazione può quindi avere effetti sulla *riservatezza*, consentendo la consultazione di informazioni private, e sull'*integrità*, qualora l'attaccante riesca a modificare dati o eseguire operazioni a nome della vittima. In presenza di applicazioni finanziarie, potrebbero inoltre verificarsi conseguenze economiche.
 
@@ -22,4 +22,4 @@ Un ulteriore elemento di rischio deriva dalla natura dei dati biometrici. A diff
 
 Il caso deve tuttavia essere interpretato criticamente: una singola dimostrazione sperimentale non è sufficiente per concludere che Face ID sia generalmente insicuro. Essa mostra piuttosto che anche sistemi biometrici avanzati devono essere valutati rispetto a scenari di attacco specifici e che la sicurezza dipende dalla combinazione di sensori, algoritmi, procedure di inizializzazione e controlli aggiuntivi.
 
-In conclusione, il rischio associato all'autenticazione biometrica non può essere eliminato completamente, ma deve essere gestito considerando il contesto di utilizzo, il valore degli asset protetti e le capacità degli attaccanti. L'adozione di meccanismi complementari, come un codice di accesso robusto, e la limitazione delle operazioni consentite dopo la sola verifica biometrica possono contribuire a ridurre l'impatto di un eventuale aggiramento del sistema.
+Il rischio associato all'autenticazione biometrica non può essere eliminato completamente, ma deve essere gestito considerando il contesto di utilizzo, il valore degli asset protetti e le capacità degli attaccanti. L'adozione di meccanismi complementari, come un codice di accesso robusto, e la limitazione delle operazioni consentite dopo la sola verifica biometrica possono contribuire a ridurre l'impatto di un eventuale aggiramento del sistema.

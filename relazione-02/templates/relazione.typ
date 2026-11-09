@@ -28,8 +28,8 @@
   university-logo: "polito-logo.svg",
   course: "Sicurezza dei Sistemi Informativi",
   team-name: "WannaCry",
-  llm-usage: "/utilizzo-llm/utilizzo-llm.typ",
-  bib-file: "/refs.yaml",
+  llm-usage: "../utilizzo-llm/utilizzo-llm.typ",
+  bib-file: "./../refs.yaml",
   body,
 ) = {
   set page(

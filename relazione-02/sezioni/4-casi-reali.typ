@@ -11,11 +11,11 @@
 
 = Il tentativo di aggiramento di Face ID tramite maschera 3D 
 
-Un caso significativo per comprendere i limiti dell'autenticazione biometrica è rappresentato dall'attacco presentato nel novembre 2017 dalla società vietnamita Bkav contro Face ID, il sistema di riconoscimento facciale introdotto da Apple con iPhone X. L'obiettivo dell'attacco era dimostrare che il sistema potesse essere ingannato utilizzando una maschera artificiale, anziché il volto reale dell'utente.
+Un caso significativo per comprendere i limiti dell'autenticazione biometrica è rappresentato dall'attacco presentato nel novembre 2017 dalla società vietnamita Bkav contro Face ID. L'obiettivo dell'attacco era dimostrare che il sistema potesse essere ingannato utilizzando una maschera artificiale, anziché il volto reale dell'utente.
 
-Face ID utilizza il sistema di sensori #emph[TrueDepth] per acquisire informazioni tridimensionali sul volto, affiancate da immagini a infrarossi. Questi dati vengono elaborati attraverso algoritmi di apprendimento automatico e confrontati con la rappresentazione biometrica registrata durante la fase iniziale. La tecnologia è progettata per distinguere un volto reale da immagini o riproduzioni artificiali, rendendo più complesso un tentativo di impersonificazione @apple-faceid-2024.
+La tecnologia che Face ID utilizza, descritta nella sezione precedente, è progettata per distinguere un volto reale da immagini o riproduzioni artificiali, rendendo più complesso un tentativo di impersonificazione @apple-faceid-2024.
 
-Nel proprio esperimento, Bkav dichiarò di aver realizzato una maschera utilizzando una combinazione di stampa 3D, immagini bidimensionali e materiali modellati artigianalmente. Secondo i ricercatori, il costo dei materiali era di circa 150 dollari e la maschera era in grado di sbloccare un iPhone X. L'attacco richiedeva tuttavia informazioni dettagliate sul volto della persona da impersonare, ottenute mediante una scansione tridimensionale @bkav-2017, @wired-2017.
+Nel proprio esperimento, Bkav dichiarò di aver realizzato una maschera utilizzando una combinazione di stampa 3D, immagini bidimensionali e materiali modellati artigianalmente. Secondo i ricercatori, il costo dei materiali era di circa 150 dollari e la maschera era in grado di sbloccare un iPhone X. L'attacco richiedeva tuttavia informazioni dettagliate sul volto della persona da impersonare, ottenute mediante una scansione tridimensionale del volto della persona e scatti fotografici da diverse angolazioni @bkav-2017, @wired-2017.
 
 La dimostrazione suscitò un dibattito sulla robustezza del sistema. WIRED evidenziò che l'attacco poteva essere rilevante soprattutto per obiettivi di alto valore, ma risultava poco pratico nei confronti dell'utente medio, a causa del tempo, delle risorse e delle informazioni necessarie per realizzare la maschera @wired-2017.
 
