@@ -9,7 +9,7 @@ precisione del sistema e sulla tenuta dei dati personali @nist-sp800-63b-2025. I
 il Face ID di Apple, progettato per lo sblocco del dispositivo e la convalida delle operazioni quotidiane.
 
 Vale la pena chiarire subito una differenza fondamentale: non parliamo di un sistema di sorveglianza che cerca un
-volto all'interno di un database (ricerca 1:$N$), ma di una verifica puntuale 1:1, che confronta chi ha in mano il
+volto all'interno di un database (ricerca 1:N), ma di una verifica puntuale 1:1, che confronta chi ha in mano il
 telefono solo con l'impronta facciale memorizzata al momento della configurazione @apple-faceid-2024. Separare
 questi due ambiti è cruciale, poiché finalità, implicazioni etiche e livelli di rischio cambiano radicalmente.
 D'altronde, affidare la sicurezza alla biometria porta con sé criticità uniche. Un algoritmo può fallire,
