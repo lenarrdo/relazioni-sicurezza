@@ -31,18 +31,18 @@ ENISA distingue gli strumenti di attacco in digitali (schermi che riproducono co
 
     [Video su schermo],
     [Digitale],
-    [Superficie piatta: stesso principio (inferenza nostra)],
+    [Superficie piatta: si presume valga lo stesso principio],
 
     [Maschera 3D],
     [Fisico],
-    [Contrastata da reti anti-spoofing @apple-faceid-2024; il caso più documentato nelle nostre fonti è Bkav (sezione 4) @bkav-2017],
+    [Contrastata da reti anti-spoofing @apple-faceid-2024; Bkav risulta il caso più documentato nelle fonti consultate (sezione 4) @bkav-2017],
   ),
   caption: [Attacchi di presentazione e loro rilevanza per Face ID],
 )
 
 == Enrollment, sensori e injection
 
-L'enrollment cattura il volto in più pose e il template si aggiorna con l'uso, anche dopo un match ravvicinato seguito dal passcode @apple-platform-security @apple-faceid-2024. Ciò aiuta l'usabilità, ma in teoria un aggiornamento potrebbe far slittare progressivamente il template (nessuna evidenza pubblica). Il passcode resta il fallback e la radice di fiducia: è richiesto dopo riavvio, dopo 48 ore senza sblocco o dopo cinque match falliti @apple-faceid-2024, e NIST impone sempre un'alternativa non biometrica @nist-sp800-63b-2025. Di conseguenza, l'attacco meno costoso potrebbe puntare al passcode e non al volto (valutazione nostra).
+L'enrollment cattura il volto in più pose e il template si aggiorna con l'uso, anche dopo un match ravvicinato seguito dal passcode @apple-platform-security @apple-faceid-2024. Ciò aiuta l'usabilità, ma in teoria un aggiornamento potrebbe far slittare progressivamente il template (nessuna evidenza pubblica). Il passcode resta il fallback e la radice di fiducia: è richiesto dopo riavvio, dopo 48 ore senza sblocco o dopo cinque match falliti @apple-faceid-2024, e NIST impone sempre un'alternativa non biometrica @nist-sp800-63b-2025. Di conseguenza, si può ritenere che l'attacco meno costoso sia rivolto al passcode e non al volto.
 
 #figure(
   layout(size => {
@@ -87,7 +87,7 @@ L'enrollment cattura il volto in più pose e il template si aggiorna con l'uso, 
       [],
     )
   }),
-  caption: [Punto di azione di presentazione e injection nella catena di acquisizione. Elaborazione nostra da @apple-platform-security e @enisa-2022],
+  caption: [Punto di azione di presentazione e injection nella catena di acquisizione. Schema elaborato a partire da @apple-platform-security e @enisa-2022],
 )
 
-L'*injection* è distinta dalla presentazione: per ENISA il contenuto è inserito direttamente nel flusso del dispositivo di acquisizione, aggirando la fotocamera, e non è un attacco di presentazione. Nel riconoscimento remoto è ritenuto, dagli operatori del settore, il metodo più promettente per gli attaccanti, ma manca un quadro di test condiviso @enisa-2022. Per Face ID, la firma dei dati dal sensore al #emph[Secure Enclave] è coerente con una difesa contro questa classe (nostra lettura, Apple non la presenta così).
+L'*injection* è distinta dalla presentazione: per ENISA il contenuto è inserito direttamente nel flusso del dispositivo di acquisizione, aggirando la fotocamera, e non è un attacco di presentazione. Nel riconoscimento remoto è ritenuto, dagli operatori del settore, il metodo più promettente per gli attaccanti, ma manca un quadro di test condiviso @enisa-2022. Per Face ID, la firma dei dati dal sensore al #emph[Secure Enclave] si può interpretare come coerente con una difesa contro questa classe di attacchi, benché Apple non la presenti in questi termini.
