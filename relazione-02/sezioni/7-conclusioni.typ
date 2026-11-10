@@ -1,7 +1,7 @@
 = Conclusioni e discussione
 
-// Autore assegnato: Amedeo Marino
-// TODO: Rispondere alla domanda iniziale: benefici, rischi residui e limiti della sicurezza biometrica.
-// TODO: Niente nuove informazioni o fonti non introdotte; distinguere fatti da valutazioni.
+L'analisi di Face ID evidenzia come l'autenticazione biometrica possa migliorare l'esperienza d'uso senza eliminare le esigenze di sicurezza che caratterizzano l'accesso ai dati personali. La combinazione di acquisizione tridimensionale, confronto protetto e controlli contro gli attacchi di presentazione aumenta la difficoltà di un'imitazione del volto, ma non rende il sistema infallibile. Il riconoscimento rimane probabilistico e la sua affidabilità va interpretata in relazione alle condizioni d'uso e alle capacità dell'attaccante.
 
-// Inserire le citazioni nel testo usando @chiave-bibliografica.
+Il caso Bkav è significativo proprio per questo: la dimostrazione dichiarata mostra uno scenario di attacco mirato, mentre i limiti metodologici discussi dalle analisi indipendenti impediscono di estendere il risultato a ogni dispositivo o situazione @wired-2017 @ars-2017. Di conseguenza, valutare soltanto la probabilità di un falso riconoscimento non basta; occorre considerare anche costi, accesso al dispositivo, informazioni disponibili sull'utente e valore delle risorse protette.
+
+Sul piano pratico, Face ID va quindi considerato una componente di un insieme di difese, non un sostituto assoluto del codice di accesso. La protezione dei dati biometrici, il controllo sui tentativi di autenticazione e la possibilità di ricorrere a un metodo alternativo restano elementi fondamentali @apple-platform-security @nist-sp800-63b-2025. La valutazione complessiva è positiva, purché la comodità dello sblocco non venga confusa con una garanzia di sicurezza totale e il rispetto della privacy rimanga parte integrante della progettazione.
