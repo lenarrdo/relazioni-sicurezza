@@ -8,3 +8,4 @@
 #include "autori/amedeo-marino.typ"
 #include "autori/andrei.typ"
 #include "autori/andrea-zanzarella.typ"
+#include "autori/leonardo-miani.typ"
