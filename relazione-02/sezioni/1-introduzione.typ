@@ -5,18 +5,18 @@ ostacolo da superare. Le credenziali classiche — come PIN e password — mostr
 dimenticano facilmente, si prestano a essere intercettate o, peggio, condivise con leggerezza. È qui che entra
 in gioco la biometria, sostituendo ciò che sappiamo con ciò che siamo (dalle impronte digitali alla fisionomia
 del volto). Ma se da un lato l'accesso diventa immediato, dall'altro si aprono interrogativi non banali sulla
-precisione del sistema e sulla tenuta dei dati personali @nist-sp800-63b-2025.Il caso più emblematico è senz'altro
+precisione del sistema e sulla tenuta dei dati personali @nist-sp800-63b-2025. Il caso più emblematico è senz'altro
 il Face ID di Apple, progettato per lo sblocco del dispositivo e la convalida delle operazioni quotidiane.
 
 Vale la pena chiarire subito una differenza fondamentale: non parliamo di un sistema di sorveglianza che cerca un
 volto all'interno di un database (ricerca 1:$N$), ma di una verifica puntuale 1:1, che confronta chi ha in mano il
- telefono solo con l'impronta facciale memorizzata al momento della configurazione @apple-faceid-2024. Separare
- questi due ambiti è cruciale, poiché finalità, implicazioni etiche e livelli di rischio cambiano radicalmente.
+telefono solo con l'impronta facciale memorizzata al momento della configurazione @apple-faceid-2024. Separare
+questi due ambiti è cruciale, poiché finalità, implicazioni etiche e livelli di rischio cambiano radicalmente.
 D'altronde, affidare la sicurezza alla biometria porta con sé criticità uniche. Un algoritmo può fallire,
 un attaccante può provare a bypassare i sensori con una foto o una maschera 3D e, soprattutto, a differenza di
 una password bucata, non possiamo cambiare la forma del nostro viso. A questo si aggiunge la questione privacy,
 legata a dove e come questi dati vengono elaborati: memorizzare tratti biometrici in server centralizzati espone
-a pericoli di ben altra portata rispetto al salvataggio locale @nist-sp800-63b-2025 @edpb-2024.Il presente lavoro
+a pericoli di ben altra portata rispetto al salvataggio locale @nist-sp800-63b-2025 @edpb-2024. Il presente lavoro
 prende in esame Face ID come modello di riferimento per esplorare un dilemma di fondo: la praticità del
 riconoscimento facciale deve necessariamente andare a discapito di sicurezza e riservatezza? Nelle pagine che
 seguono verranno analizzate le componenti tecniche della tecnologia Apple, i potenziali vettori di attacco,
