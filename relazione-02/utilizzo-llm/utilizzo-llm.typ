@@ -6,3 +6,5 @@
 // Non inventare l'uso del modello per autori che non l'hanno utilizzato.
 
 #include "autori/amedeo-marino.typ"
+#include "autori/andrei.typ"
+#include "autori/andrea-zanzarella.typ"

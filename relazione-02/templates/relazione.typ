@@ -28,8 +28,8 @@
   university-logo: "polito-logo.svg",
   course: "Sicurezza dei Sistemi Informativi",
   team-name: "WannaCry",
-  llm-usage: "/utilizzo-llm/utilizzo-llm.typ",
-  bib-file: "/refs.yaml",
+  llm-usage: "../utilizzo-llm/utilizzo-llm.typ",
+  bib-file: "./../refs.yaml",
   body,
 ) = {
   set page(
@@ -63,7 +63,11 @@
 
         #for author in (
           authors
-        ) [ #text(font: "Fira Mono", size: 10.5pt, author.matricola) - #author.name \ ]
+        ) [ #text(
+          font: "Fira Mono",
+          size: 10.5pt,
+          [#author.matricola - #author.name ],
+        )\ ]
         #if authors != () {
           v(0.5em)
         }
