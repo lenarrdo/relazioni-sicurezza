@@ -18,7 +18,7 @@ Face ID esegue una verifica 1:1: confronta il volto presentato con il template d
 
 == Attacchi di presentazione <sec:attacchi-presentazione>
 
-ENISA distingue gli strumenti di attacco in digitali (schermi che riproducono contenuti) e fisici (ad esempio maschere in silicone o stampate) @enisa-2022. Gli esempi riguardano però il riconoscimento remoto e non si trasferiscono automaticamente a Face ID, che usa profondità e infrarossi (nostra lettura).
+Un *presentation attack* è, secondo la definizione ISO/IEC 30107 ripresa da ENISA, la presentazione al sottosistema di acquisizione biometrica di un oggetto o di un contenuto con l'obiettivo di interferire con il funzionamento del sistema; l'oggetto presentato è detto *presentation attack instrument* (PAI) @enisa-2022. L'attaccante agisce quindi davanti al sensore, senza modificare il software o i dati in transito. ENISA divide i PAI in digitali (schermi che riproducono foto o video) e fisici (stampe, maschere in silicone) e osserva che un deepfake può arrivare al sistema in due modi: mostrato alla fotocamera, e allora è un presentation attack, oppure inserito direttamente nel flusso, e allora è un'injection @enisa-2022. Si può ritenere che questo tipo di attacco non sfrutti un errore di programmazione ma un limite intrinseco: il volto non è un segreto e il sistema deve stabilire se ciò che vede appartiene a una persona viva e presente. La contromisura specifica è il PAD, trattato nella sezione 6. Gli esempi riguardano però il riconoscimento remoto: si può ritenere che non si trasferiscano automaticamente a Face ID, che usa profondità e infrarossi.
 
 #figure(
   table(
