@@ -2,17 +2,17 @@
 
 **Consegna:** 10 novembre 2026, ore 23:59, in PDF. **Lettura richiesta:** circa 15 minuti, escluse bibliografia e allegato GenAI.
 
-**Titolo:** *Face ID e autenticazione biometrica: sicurezza, spoofing e privacy*
+**Titolo:** _Face ID e autenticazione biometrica: sicurezza, spoofing e privacy_
 
 ## Divisione in cinque
 
-| Autore | Sezioni | Parole obiettivo (approssimative) | Responsabilità |
-|---|---|---:|---|
-| Davide Giordano | 1 Introduzione | 250–300 | Apertura; coordinamento `refs.yaml`, verifica uniformità e consegna |
-| Amedeo Marino | 2 Descrizione; 7 Conclusioni | 420–500 + 180–220 | Scenario, asset, claim, lifecycle; valutazione finale |
-| Andrea Zanzarella | 3 Analisi tecnica | 550–650 | TrueDepth, Secure Enclave, PAD, metriche, attacchi |
-| Andrei Daniel Stefan | 4 Casi reali; 5 Conseguenze e impatti | 350–450 + 250–300 | Bkav e limiti, rischi/impatti |
-| Leonardo Miani | 6 Mitigazioni e comportamenti | 500–600 | Contromisure motivate, privacy, usabilità, GDPR |
+| Autore               | Sezioni                               | Parole obiettivo (approssimative) | Responsabilità                                                      |
+| -------------------- | ------------------------------------- | --------------------------------: | ------------------------------------------------------------------- |
+| Davide Giordano      | 1 Introduzione                        |                           250–300 | Apertura; coordinamento `refs.yaml`, verifica uniformità e consegna |
+| Amedeo Marino        | 2 Descrizione; 7 Conclusioni          |                 420–500 + 180–220 | Scenario, asset, claim, lifecycle; valutazione finale               |
+| Andrea Zanzarella    | 3 Analisi tecnica                     |                           550–650 | TrueDepth, Secure Enclave, PAD, metriche, attacchi                  |
+| Andrei Daniel Stefan | 4 Casi reali; 5 Conseguenze e impatti |                 350–450 + 250–300 | Bkav e limiti, rischi/impatti                                       |
+| Leonardo Miani       | 6 Mitigazioni e comportamenti         |                           500–600 | Contromisure motivate, privacy, usabilità, GDPR                     |
 
 **Totale indicativo:** 2.500–3.000 parole, da validare con una prova di lettura attenta.
 

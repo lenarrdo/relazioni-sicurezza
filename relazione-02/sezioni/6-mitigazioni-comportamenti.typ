@@ -7,7 +7,7 @@
 
 = Mitigazioni e comportamenti corretti
 
-== Presentation Attack Detection
+== Presentation Attack Detection <sec:pad>
 
 In @sec:attacchi-presentazione sono stati introdotti i "Presentation Attack", in cui un attaccante presenta al sensore biometrico un artefatto contraffatto (Presentation Attack Instrument, PAI) per impersonare un utente legittimo. Nel caso di sistemi d'autenticazione elementari, una semplice fotografia bidimensionale potrebbe bastare a ingannare il meccanismo di riconoscimento biometrico @arxiv.
 
