@@ -1,4 +1,4 @@
-#import "/templates/relazione.typ": *
+#import "templates/relazione.typ": *
 
 #show: relazione.with(
   title: "Shai-Hulud: una minaccia nella supply chain JavaScript",

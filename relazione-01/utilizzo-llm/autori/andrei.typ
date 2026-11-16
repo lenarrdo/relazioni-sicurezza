@@ -1,5 +1,4 @@
-#import "/templates/llm.typ": *
-
+#import "../../templates/llm.typ": *
 #llm(
   "Andrei Daniel Stefan s356980",
   ("casi reali",),

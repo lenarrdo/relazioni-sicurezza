@@ -1,4 +1,4 @@
-#import "/templates/llm.typ": *
+#import "../../templates/llm.typ": *
 
 #llm(
   "Andrea Zanzarella s361615",

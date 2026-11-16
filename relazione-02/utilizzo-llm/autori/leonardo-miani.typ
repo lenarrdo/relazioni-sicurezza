@@ -1,4 +1,4 @@
-#import "/templates/llm.typ": *
+#import "../../templates/llm.typ": *
 
 #let gemini-notebook = [#link("https://notebook.google.com/")[Gemini Notebook]]
 
