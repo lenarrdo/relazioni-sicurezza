@@ -1,3 +1,132 @@
-# Bibliografia del secondo elaborato. Fonti verificate il 2026-11-04.
-# Usare @chiave direttamente nei file .typ, ad esempio @apple-faceid-2024.
+# Bibliografia del terzo elaborato. Fonti individuate il 2026-11-25 (da verificare con lettura diretta prima della consegna).
+# Usare @chiave direttamente nei file .typ, ad esempio @signal-x3dh-2016.
 
+signal-docs:
+  type: web
+  title: "Technical information"
+  author: "Signal Messenger"
+  organization: "Signal"
+  url: "https://signal.org/docs/"
+  urldate: 2026-11-25
+
+signal-x3dh-2016:
+  type: web
+  title: "The X3DH Key Agreement Protocol"
+  author: ["Moxie Marlinspike", "Trevor Perrin"]
+  organization: "Signal"
+  date: 2016-11-04
+  url: "https://signal.org/docs/specifications/x3dh/"
+  urldate: 2026-11-25
+
+signal-doubleratchet:
+  type: web
+  title: "The Double Ratchet Algorithm"
+  author: ["Trevor Perrin", "Moxie Marlinspike"]
+  organization: "Signal"
+  date: 2025-11-04
+  url: "https://signal.org/docs/specifications/doubleratchet/"
+  urldate: 2026-11-25
+
+signal-sealed-sender-2018:
+  type: web
+  title: "Technology preview: Sealed sender for Signal"
+  author: "Joshua Lund"
+  organization: "Signal"
+  date: 2018-10-29
+  url: "https://signal.org/blog/sealed-sender/"
+  urldate: 2026-11-25
+
+signal-safety-number:
+  type: web
+  title: "What is a safety number?"
+  author: "Signal Support"
+  organization: "Signal"
+  url: "https://support.signal.org/hc/en-us/articles/360007060632"
+  urldate: 2026-11-25
+
+whatsapp-whitepaper-2023:
+  type: report
+  title: "WhatsApp Encryption Overview: Technical white paper (versione 7)"
+  author: WhatsApp
+  organization: "WhatsApp LLC"
+  date: 2023-09-27
+  url: "https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf"
+  urldate: 2026-11-25
+
+whatsapp-faq-e2ee:
+  type: web
+  title: "About end-to-end encryption"
+  author: WhatsApp
+  organization: "WhatsApp Help Center"
+  url: "https://faq.whatsapp.com/general/28030015"
+  urldate: 2026-11-25
+
+whatsapp-backups-2021:
+  type: web
+  title: "WhatsApp end-to-end encrypted backups"
+  author: Meta
+  organization: "Engineering at Meta"
+  date: 2021-09-10
+  url: "https://engineering.fb.com/2021/09/10/security/whatsapp-e2ee-backups/"
+  urldate: 2026-11-25
+
+whatsapp-key-transparency-2023:
+  type: web
+  title: "Deploying key transparency at WhatsApp"
+  author: Meta
+  organization: "Engineering at Meta"
+  date: 2023-04-13
+  url: "https://engineering.fb.com/2023/04/13/security/whatsapp-key-transparency/"
+  urldate: 2026-11-25
+
+cohn-gordon-2020:
+  type: article
+  title: "A Formal Security Analysis of the Signal Messaging Protocol"
+  author:
+    [
+      "Katriel Cohn-Gordon",
+      "Cas Cremers",
+      "Benjamin Dowling",
+      "Luke Garratt",
+      "Douglas Stebila",
+    ]
+  container-title: "Journal of Cryptology"
+  date: 2020
+  doi: "10.1007/s00145-020-09360-1"
+  url: "https://link.springer.com/10.1007/s00145-020-09360-1"
+  urldate: 2026-11-25
+
+rosler-2018:
+  type: article
+  title: "More is Less: On the End-to-End Security of Group Chats in Signal, WhatsApp, and Threema"
+  author: ["Paul Rösler", "Christian Mainka", "Jörg Schwenk"]
+  container-title: "IEEE European Symposium on Security and Privacy (EuroS&P)"
+  date: 2018
+  url: "https://eprint.iacr.org/2017/713"
+  urldate: 2026-11-25
+
+nvd-cve-2019-3568:
+  type: web
+  title: "CVE-2019-3568 Detail"
+  author: "NIST"
+  organization: "National Vulnerability Database"
+  url: "https://nvd.nist.gov/vuln/detail/CVE-2019-3568"
+  urldate: 2026-11-25
+
+checkpoint-whatsapp-2019:
+  type: web
+  title: "The NSO WhatsApp Vulnerability - This is how it happened"
+  author: "Check Point Research"
+  organization: "Check Point"
+  date: 2019-05
+  url: "https://research.checkpoint.com/the-nso-whatsapp-vulnerability-this-is-how-it-happened/"
+  urldate: 2026-11-25
+
+edpb-2024:
+  type: report
+  title: "EDPB Statement on the Recommendations of the High-Level Group on access to data for effective law enforcement"
+  author: "European Data Protection Board"
+  organization: "EDPB"
+  date: 2024-11-04
+  url: "https://edpb.europa.eu/system/files/2024-11/edpb_statement_20241104_ontherecommendationsofthehlg_en.pdf"
+  urldate: 2026-11-25
